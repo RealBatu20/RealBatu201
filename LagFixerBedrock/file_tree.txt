@@ -1,0 +1,23 @@
+LagFixerBedrock.mcaddon/
+├── behavior_pack/
+│   ├── manifest.json
+│   ├── pack_icon.png
+│   ├── scripts/
+│   │   └── main.js
+│   ├── entities/
+│   │   └── lagfixer/
+│   │       └── optimized_mob.behavior.json
+│   ├── functions/
+│   │   └── lagfixer/
+│   │       ├── tick.mcfunction
+│   │       └── init.mcfunction
+│   ├── loot_tables/
+│   │   └── lagfixer/
+│   │       └── empty.json
+│   └── tick.json
+└── resource_pack/
+    ├── manifest.json
+    ├── pack_icon.png
+    └── textures/
+        └── ui/
+            └── lagfixer_icon.png

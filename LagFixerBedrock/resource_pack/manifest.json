@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "LagFixer Bedrock Resources",
+    "description": "Resource pack for LagFixer Bedrock performance optimization addon",
+    "uuid": "019ee8d2-3ed4-7cf1-a0f5-374786b21f51",
+    "version": [1, 6, 1],
+    "min_engine_version": [1, 26, 20]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "019ee8d2-437a-790b-b4ed-80e72e27d362",
+      "version": [1, 6, 1]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["TheRealBatu"]
+  }
+}
