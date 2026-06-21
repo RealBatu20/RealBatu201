@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "LagFixer Performance Pack",
+    "uuid": "a7f3e8d2-4b1c-7e9a-8f2d-3c5b6a9e1d4f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 13],
+    "description": "Performance optimization pack that reduces entity AI, limits entity counts, cleans dropped items, and monitors server performance."
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b8e4f9c3-5d2e-8f0b-9a3e-4d6c7b0f2e5a",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c9f5a0d4-6e3f-9a1c-0b4f-5e7d8c1a3f6b",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["TheRealBatu"]
+  }
+}

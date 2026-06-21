@@ -1,0 +1,13 @@
+```
+# Build artifacts
+*.zip
+dist/
+build/
+
+# Temp files
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+```

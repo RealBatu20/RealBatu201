@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "LagFixer Resource Pack",
+    "uuid": "d0a6b1e5-7f4a-8c2d-1e5f-6a8b9c0d2e3f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 13],
+    "description": "Resource pack for LagFixer Performance Pack"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e1b7c2f6-8a5b-9d3e-2f6a-7b9c0d1e3f4a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["TheRealBatu"]
+  }
+}

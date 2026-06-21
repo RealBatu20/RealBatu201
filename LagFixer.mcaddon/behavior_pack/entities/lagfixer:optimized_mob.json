@@ -1,0 +1,50 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "lagfixer:optimized_mob",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "lagfixer:ai_reduced": {
+        "minecraft:navigation.walk": {
+          "can_path_over_water": false,
+          "avoid_damage_blocks": false
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:behavior.float": {
+          "priority": 99
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["mob"]
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      }
+    },
+    "events": {
+      "lagfixer:reduce_ai": {
+        "add": {
+          "component_groups": ["lagfixer:ai_reduced"]
+        }
+      }
+    }
+  }
+}

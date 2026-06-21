@@ -1,0 +1,41 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "LagFixer Bedrock",
+    "description": "Performance optimization addon for Minecraft Bedrock. Reduces entity AI overhead, limits entity counts, optimizes explosions, and provides lag monitoring.",
+    "uuid": "019ee8d2-31eb-77a3-8cad-3d8173e99915",
+    "version": [1, 6, 1],
+    "min_engine_version": [1, 26, 20]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "019ee8d2-3697-7e5a-8183-0f6ddaab4b76",
+      "version": [1, 6, 1]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "019ee8d2-3a69-7808-bfc4-73bdbcf428d7",
+      "version": [1, 6, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0-beta"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["TheRealBatu"]
+  },
+  "capabilities": [
+    "script_eval"
+  ]
+}

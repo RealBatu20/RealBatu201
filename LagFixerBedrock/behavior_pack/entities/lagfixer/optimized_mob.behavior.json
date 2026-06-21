@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.20",
+  "description": {
+    "identifier": "lagfixer:optimized_mob",
+    "is_spawnable": false,
+    "is_summonable": false,
+    "is_experimental": false
+  },
+  "components": {
+    "minecraft:type_family": {
+      "family": ["optimized"]
+    },
+    "minecraft:health": {
+      "value": 1,
+      "max": 1
+    },
+    "minecraft:collision_box": {
+      "width": 0.1,
+      "height": 0.1
+    },
+    "minecraft:movement": {
+      "value": 0
+    },
+    "minecraft:navigation.walk": {
+      "enabled": false,
+      "can_path_over_water": false
+    },
+    "minecraft:behavior.random_stroll": {
+      "priority": 100,
+      "speed_multiplier": 0,
+      "interval": 9999
+    },
+    "minecraft:behavior.look_at_player": {
+      "priority": 101,
+      "look_distance": 0.1,
+      "probability": 0.001
+    },
+    "minecraft:behavior.float": {
+      "priority": 102,
+      "interval": 9999
+    }
+  }
+}
